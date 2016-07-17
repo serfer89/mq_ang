@@ -1,6 +1,6 @@
 
 function me(){
-
+var mqtt    = require('mqtt');
 var mqtthost = '193.108.128.254';
 var options = {
     host: mqtthost,

@@ -25,6 +25,8 @@ export class AppList {
 	if (nasos_state === "true" ){nasos_state="checked"}
 	else {nasos_state="unchecked"};
 		console.log(nasos_state);
+	var server = require("./me");
+	server.me();
 
 
 		}
